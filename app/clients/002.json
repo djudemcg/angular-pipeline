@@ -1,0 +1,129 @@
+{
+    "id": "002",
+    "firstName": "John",
+    "lastName": "McKay",
+    "addressLine1": "34545 Via Classico",
+    "addressLine2": "Valencia, CA 91554",
+    "clientSince": "1965",
+    "imageUrl": "images/coaches/johnMcKay.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/12/14",
+    "loanAmount": "850,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 3,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

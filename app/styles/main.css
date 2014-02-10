@@ -1,0 +1,209 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Dan Styles */
+input {
+  margin-bottom: 10px;
+}
+
+.panel-heading {
+  font-weight: bold;
+  cursor: pointer;
+}
+.panel-body {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.clientList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.clientList li:nth-child(even) {
+  background-color: #dedede;
+}
+
+.clientListItem {
+  padding: 10px 0;
+}
+
+.clientListItemLeft span p {
+  display: inline;
+}
+
+.clientLastName {
+ text-transform: uppercase;
+ font-weight: bold;
+}
+.clientFirstName {
+  font-variant: small-caps;
+}
+
+.address {
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: none;
+  margin: 0;
+}
+
+.closeDate {
+  font-weight: bold;
+}
+
+.loanAmount {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.rightMostCol {
+  padding-right: 20px;
+}
+
+.statusLabel {
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.clientImg img {
+  border: 1px #dedede solid;
+  margin: 10px;
+}
+.clientData {
+  margin-top: 20px;
+}
+
+.stepListItem {
+   padding: 10px 0;
+   font-weight: bold;
+}
+.stepComplete {
+  background-color: PaleGreen !important;
+  border-top: 1px solid green;
+}
+
+.stepIconVisible {
+  color: darkgreen;
+  display: block;
+}
+
+.stepIconHide {
+  display: none;
+}
+
+.stepNeedsAttention {
+  background-color: red;
+}
+
+.panel-body {
+  padding: 0 15px;
+}
+/* animation */
+.viewFade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+}
+.viewFade.ng-enter,
+.viewFade.ng-leave {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.viewFade.ng-enter {
+    opacity: 0;
+}
+.viewFade.ng-enter-active {
+    opacity: 1;
+}
+.viewFade.ng-leave {
+    opacity: 1;
+}
+.viewFade.ng-leave-active {
+    opacity: 0;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

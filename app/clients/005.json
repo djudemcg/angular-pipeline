@@ -1,0 +1,129 @@
+{
+    "id": "005",
+    "firstName": "Brian",
+    "lastName": "Kelly",
+    "addressLine1": "18 Chippewa Lane",
+    "addressLine2": "South Bend, IN 46555",
+    "clientSince": "2010",
+    "imageUrl": "images/coaches/brianKelly.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/12/14",
+    "loanAmount": "890,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 6,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/10/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/10/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

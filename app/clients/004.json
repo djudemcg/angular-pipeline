@@ -1,0 +1,129 @@
+{
+    "id": "004",
+    "firstName": "Lou",
+    "lastName": "Holtz",
+    "addressLine1": "123 Nelson Ave",
+    "addressLine2": "Charleston, SC 25464",
+    "clientSince": "1986",
+    "imageUrl": "images/coaches/louHoltz.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "2/22/14",
+    "loanAmount": "400,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 9,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/11/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/11/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

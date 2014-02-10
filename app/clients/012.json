@@ -1,0 +1,129 @@
+{
+    "id": "012",
+    "firstName": "Gerry",
+    "lastName": "Faust",
+    "addressLine1": "1165 E Firestone Ave",
+    "addressLine2": "Akron, OH 40827",
+    "clientSince": "1981",
+    "imageUrl": "images/coaches/photoNotAvailable.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/1/14",
+    "loanAmount": "430,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 7,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

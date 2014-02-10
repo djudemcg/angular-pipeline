@@ -1,0 +1,49 @@
+<div class="header">
+  <h3 class="text-muted">Surefire Pipeline | Client List</h3>
+</div>
+
+Search by Client Name: <input ng-model="query.lastName">
+
+<div class="panel panel-default sticky">
+  <div class="panel-heading">
+    <div class="row">
+      <div class="col-md-3" ng-click="assignSort(1)">Client</div>
+      <div class="col-md-3" ng-click="assignSort(2)">Closing Date</div>
+      <div class="col-md-3" ng-click="assignSort(3)">Loan Amount</div>
+      <div class="col-md-3" ng-click="assignSort(4)">Steps Completed</div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <ul class="clientList">
+      <li class="row clientListItem" ng-repeat="client in clients | orderBy:orderProp | filter:query">
+        <div class="col-md-3 clientListItemLeft">
+          <a href="#/clients/{{client.id}}"><span><p class="clientLastName">{{client.lastName}},</p> <p class="clientFirstName">{{client.firstName}}</p></span></a>
+          <p class="address">{{client.addressLine1}}</p>
+          <p class="address">{{client.addressLine2}}</p>
+        </div>
+        <div class="col-md-3">
+          <p class="closeDate">{{client.anticipatedCloseDate}}</p>
+
+        </div>
+        <div class="col-md-3">
+          <p class="loanAmount">${{client.loanAmount}}</p>
+          <p class="address">{{client.campaign}}</p>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#/clients/{{client.id}}" class="rightMostCol pull-right"><span class="badge">{{client.stepsComplete}} of {{client.totalSteps}}</span></a>
+          <span class="label statusLabel pull-right" ng-class="labelStyles[client.status]">{{client.status}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="footer">
+  <p>Senior UI Developer Test Case: Enhance Surefire’s “Pipeline” View</p>
+</div>

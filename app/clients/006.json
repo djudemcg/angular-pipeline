@@ -1,0 +1,129 @@
+{
+    "id": "006",
+    "firstName": "Pete",
+    "lastName": "Carroll",
+    "addressLine1": "909 Tinglit Dr",
+    "addressLine2": "Bainbridge Island, WA 98021",
+    "clientSince": "2000",
+    "imageUrl": "images/coaches/peteCarroll.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/11/14",
+    "loanAmount": "999,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 12,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/2/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/3/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

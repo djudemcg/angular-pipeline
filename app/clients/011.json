@@ -1,0 +1,129 @@
+{
+    "id": "011",
+    "firstName": "Tyrone",
+    "lastName": "Willingham",
+    "addressLine1": "57 Heinz Road",
+    "addressLine2": "Los Gatos, CA 93456",
+    "clientSince": "2002",
+    "imageUrl": "images/coaches/tyWillingham.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/17/14",
+    "loanAmount": "520,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 4,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

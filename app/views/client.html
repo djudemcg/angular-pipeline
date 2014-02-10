@@ -1,0 +1,77 @@
+<div class="header">
+  <h3 class="text-muted">Surefire Pipeline | Client Detail</h3>
+</div>
+<div class="row">
+  <div class="col-md-4 clientImg">
+    <img src={{client.imageUrl}} />
+  </div>
+  
+  <div class="col-md-6">
+    <div class="clientIdData">
+      <h3>{{client.firstName}} {{client.lastName}}</h3>
+      <p class="address">{{client.addressLine1}}</p>
+      <p class="address">{{client.addressLine2}}</p>
+      <p>Client since {{client.clientSince}}</p>
+    </div>
+    <div class="clientData">
+      <p class="loanAmount">Loan Amount: ${{client.loanAmount}}</p>
+      <p class="closeDate">Expected Close Date: {{client.anticipatedCloseDate}}</p>
+    </div>
+    <div class="clientData">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Archive</button>
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Delete</button>
+      <a href="#/clients/"><button type="button" class="btn btn-primary pull-right">Back to List</button></a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+      <div class="row">
+      <div class="col-md-1" ng-click="assignSort(1)">Status</div>
+      <div class="col-md-2" ng-click="assignSort(2)">Date</div>
+      <div class="col-md-5" ng-click="assignSort(3)">Step Name</div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <ul class="clientList">
+      <li class="row stepListItem" ng-class="{stepComplete: step.completed}" ng-repeat="step in steps | orderBy:orderProp">
+          <div class="col-md-1 clientListItemLeft">
+            <span class="glyphicon glyphicon-ok" ng-class="{stepIconVisible: step.completed, stepIconHide: !step.completed}"></span>
+          </div>
+          <div class="col-md-2">
+            <p>{{step.date}}</p>
+          </div>
+          <div class="col-md-5">
+            <p>{{step.stepName}}</p>
+          </div>
+          <div class="col-md-3">
+          <span class="label statusLabel pull-right" ng-class="labelStyles[step.status]">{{step.status}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<a href="#/clients/">Back to Client List</a>
+
+<div class="footer">
+  <p>Senior UI Developer Test Case: Enhance Surefire’s “Pipeline” View</p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Archive/Delete Button</h4>
+      </div>
+      <div class="modal-body">
+        This is only a test...Had this been an actual app, information about the consequences of archiving or deleting a client would be provided here.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

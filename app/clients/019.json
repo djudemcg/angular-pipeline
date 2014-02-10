@@ -1,0 +1,129 @@
+{
+    "id": "019",
+    "firstName": "Jeff",
+    "lastName": "Cravath",
+    "addressLine1": "829 W Haggard St",
+    "addressLine2": "Bakersfield, CA 90223",
+    "clientSince": "1955",
+    "imageUrl": "images/coaches/photoNotAvailable.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/19/14",
+    "loanAmount": "670,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 11,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Client Action Pending",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Client Action Pending",
+            "date": "12/11/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "12/11/13"
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "12/11/13"
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": true,
+            "status": "On Schedule",
+            "date": "12/12/13"
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

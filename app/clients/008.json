@@ -1,0 +1,129 @@
+{
+    "id": "008",
+    "firstName": "Lane",
+    "lastName": "Kiffin",
+    "addressLine1": "900 W Bryant Ave",
+    "addressLine2": "Tuscaloosa, AL 50400",
+    "clientSince": "1998",
+    "imageUrl": "images/coaches/laneKiffin.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/31/14",
+    "loanAmount": "750,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 2,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": false,
+            "status": "Needs Attention",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": false,
+            "status": "Client Action Pending",
+            "date": ""
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}

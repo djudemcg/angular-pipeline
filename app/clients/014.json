@@ -1,0 +1,129 @@
+{
+    "id": "014",
+    "firstName": "Knute",
+    "lastName": "Rockne",
+    "addressLine1": "1 N State St",
+    "addressLine2": "Chicago, IL 60602",
+    "clientSince": "1913",
+    "imageUrl": "images/coaches/knuteRockne.jpg",
+    "likelyToClose": 5,
+    "anticipatedCloseDate": "3/1/14",
+    "loanAmount": "950,000",
+    "campaign": "Purchase In-Process CRM",
+    "stepsComplete": 10,
+    "totalSteps": 16,
+    "steps": [
+
+        {
+            "stepName": "Application",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Sent",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/27/13"
+        },
+
+        {
+            "stepName": "Borrower Docs Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "11/29/13"
+        },
+
+        {
+            "stepName": "Appraisal Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Appraisal Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Title Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Title Received",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Sent to Underwriting1",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Submitted to Underwriting",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Ordered",
+            "completed": true,
+            "status": "Complete",
+            "date": "12/1/13"
+        },
+
+        {
+            "stepName": "Hazard Insurance Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Initial Approval Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Request Borrower Supporting Docs",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Received",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        },
+
+        {
+            "stepName": "Supporting Docs Submitted",
+            "completed": false,
+            "status": "On Schedule",
+            "date": ""
+        }
+    ]
+}
